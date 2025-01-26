@@ -1,0 +1,52 @@
+import java.util.Scanner; // import the Scanner class 
+
+class Main {
+  public static void main(String[] args) {
+    Scanner scannerz = new Scanner(System.in);
+    String userName;
+    
+    // Enter your name
+    System.out.println("Enter your name"); 
+    userName = scannerz.nextLine();   
+    System.out.println("Your name is: " + userName);
+    System.out.println("");
+    
+    // Enter your age
+    int age;
+    System.out.println("Enter your age");
+    age = scannerz.nextInt();
+    System.out.println("Your age is: "+ age);
+    System.out.println("");
+    
+    // Consume the leftover newline character after nextInt()
+    scannerz.nextLine(); // This is important to avoid skipping the next line input
+    
+    // Enter your address
+    String address;
+    System.out.println("Enter your address");
+    address = scannerz.nextLine(); // Correct variable name (address instead of adress)
+    System.out.println("You live in: " + address);
+    System.out.println("");
+    
+    //Enter your hobby
+    String hobby;
+    System.out.println("Enter your hobby");
+    hobby = scannerz.nextLine();
+    System.out.println("Your hobby is: " + hobby);
+    System.out.println("");
+    
+    //Enter your motto
+    String motto;
+    System.out.println("Enter your motto");
+    motto = scannerz.nextLine();
+    System.out.println("Your motto is: " + motto);
+    System.out.println("");
+    
+    //Enter your last school attended
+    String school;
+    System.out.println("Enter you SHS attended");
+    school = scannerz.nextLine();
+    System.out.println("The last SHS attended was: " + school);
+    
+  }
+}
