@@ -1,4 +1,4 @@
-import java.util.Scanner; // import the Scanner class 
+import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) {
@@ -44,9 +44,9 @@ class Main {
     
     //Enter your last school attended
     String school;
-    System.out.println("Enter you SHS attended");
+    System.out.println("Enter your SHS");
     school = scannerz.nextLine();
-    System.out.println("The last SHS attended was: " + school);
+    System.out.println("The last SHS you attended was: " + school);
     
   }
 }
