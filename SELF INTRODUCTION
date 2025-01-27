@@ -18,7 +18,7 @@ class Main {
     System.out.println("Your age is: "+ age);
     System.out.println("");
     
-    // Consume the leftover newline character after nextInt()
+    // For newline character after int
     scannerz.nextLine(); // This is important to avoid skipping the next line input
     
     // Enter your address
